@@ -510,10 +510,9 @@ padding: 3rem;
     text-align: left;
 }
 
-.project h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    text-align: center;
+.projectdes{
+text-align:left;
+      color: rgb(162, 163, 163);
 }
 
 .project p {
