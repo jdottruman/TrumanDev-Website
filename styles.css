@@ -236,6 +236,7 @@ border-radius: 15px;
 
 /* Social Icons */
 .social {
+
     display: flex;
     padding-top: 1.5rem;
     gap: 5rem;
@@ -750,7 +751,7 @@ body.dark-mode .highlight{
 }
 /* END OF DARK */
 /* Media Queries for responsiveness */
-@media (max-width: 800px) {
+@media (max-width: 810px) {
     .nav__hamburger {
         display: flex;
     }
@@ -838,6 +839,7 @@ flex-wrap: wrap;
 align-items: flex-start;
     justify-content: flex-end;
     z-index: 10000;
+    padding-right: 1rem;
 
 }
 .social{
@@ -852,10 +854,22 @@ display: none;}
     width: 100%;
 }
 
-
-
-
+.aboutMe, .skills , .cert , .projects , .contact{
+        padding: 0rem;
+        margin: 0rem 0;
+    }
   
+    .paraCon{
+        padding: 1rem;
+    }
+ 
+    .skills .landSide{
+        padding: 1rem;
+    }
+   
+    .skills .certSide{
+        padding: 1rem;
+    }
 }
 
 
