@@ -831,19 +831,19 @@ body.dark-mode .highlight{
     }
     
 
-.WelcomeCon{
+/* .WelcomeCon{
 align-items: center;
 justify-content: center;
 z-index: 10000;
 flex-wrap: wrap;
-}
-.welcomeText{
+} */
+/* .welcomeText{
 align-items: flex-start;
     justify-content: flex-end;
     z-index: 10000;
     padding-right: 1rem;
 
-}
+} */
 .social{
 display: none;}
 
@@ -879,3 +879,30 @@ display: none;}
 
 
 
+@media (max-width: 540px){
+
+    .WelcomeCon{
+        flex-direction: column;
+
+    
+    }
+
+    .headshotCon{
+
+position: relative;
+        width: 100vw;
+    }
+
+    .headshot{
+        top: 0;
+        width: 100%;
+    }
+    .nav{
+        flex-direction: row;
+     width: 100vw;
+     height: 10vh;
+    }
+    .welcomeRight{
+        width: 100%;
+    }
+}
