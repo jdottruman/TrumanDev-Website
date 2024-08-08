@@ -5,65 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Truman Front End Developer | Software Engineer in Chicago, Illinois</title>
-     <link rel="icon" href="photos/IMG_1088.PNG">
+    <link rel="icon" href="photos/IMG_1088.PNG">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
-    <nav class="nav" role="navigation" aria-label="Main Navigation">
-        <a href="index.html" aria-label="Home">
-            <img class="nav__logo" src="photos/IMG_1088.PNG" alt="Logo">
-        </a>
 
-        <a href="#" class="nav__hamburger" aria-label="Open Navigation Menu">
-            <span class="nav__hamburger__line"></span>
-            <span class="nav__hamburger__line"></span>
-            <span class="nav__hamburger__line"></span>
-        </a>
-        <div class="nav__menu">
-            <ul>
-                <li class="nav__menu__link">
-                    <a href="#aboutMe">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        <p>About Me</p>
-                    </a>
-                </li>
-                <li class="nav__menu__link">
-                    <a href="#projects">
-                        <i class="fa-solid fa-folder"></i>
-                        <p>Projects</p>
-                    </a>
-                </li>
-                <li class="nav__menu__link">
-                    <a href="#contactMe">
-                        <i class="fa fa-mobile" aria-hidden="true"></i>
-                        <p>Contact Me</p>
-                    </a>
-                </li>
-                <li>
-                    <i onclick="darkMode()" id="bolt" class="fa-solid fa-bolt"></i>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
     <main>
         <section class="welcome">
             <div class="WelcomeCon">
-                <div class="welcomeLeft">
-                    <div class="welcomeText">
-                        <h1>Welcome!</h1>
-                        <h2>I'm <span class="highlight">Jadyn Truman</span>,</h2>
-                        <h2>a <span class="highlight">Front-end Web Developer</span>.</h2>
-                        <h3>Based in Chicago, Illinois</h3>
+
+                <nav class="nav" role="navigation" aria-label="Main Navigation">
+                    <a href="index.html" aria-label="Home">
+                        <img class="nav__logo" src="photos/IMG_1088.PNG" alt="Logo">
+                    </a>
+
+                    <a href="#" class="nav__hamburger" aria-label="Open Navigation Menu">
+                        <span class="nav__hamburger__line"></span>
+                        <span class="nav__hamburger__line"></span>
+                        <span class="nav__hamburger__line"></span>
+                    </a>
+                    <div class="nav__menu">
+                        <ul>
+                            <li class="nav__menu__link">
+                                <a href="#aboutMe">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <p>About Me</p>
+                                </a>
+                            </li>
+                            <li class="nav__menu__link">
+                                <a href="#projects">
+                                    <i class="fa-solid fa-folder"></i>
+                                    <p>Projects</p>
+                                </a>
+                            </li>
+                            <li class="nav__menu__link">
+                                <a href="#contactMe">
+                                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                                    <p>Contact Me</p>
+                                </a>
+                            </li>
+                            <li>
+                                <i onclick="darkMode()" id="bolt" class="fa-solid fa-bolt"></i>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="headshotCon">
-                        <img class="headshot" src="photos/headshot black copy.png" alt="Jadyn Truman Headshot">
-                    </div>
-                </div>
-                <div class="socailCon">
-                    <h1><span class="input"></span></h1>
+                </nav>
+
+                <div class="welcomeText">
+                    <h2>Jadyn Truman <br> Front-end Web Developer</h2>
+                    <h3>Based in Chicago, Illinois</h3>
+
                     <div class="social">
                         <a target="_blank" href="https://github.com/jdottruman" aria-label="GitHub Profile"><i
                                 class="fab fa-github"></i></a>
@@ -74,7 +68,20 @@
                             aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
+
+
+
+                <div class="welcomeRight">
+                    <div class="headshotCon">
+                        <img class="headshot" src="photos/headshot black copy.png" alt="Jadyn Truman Headshot">
+                    </div>
+                    <!-- <h1><span class="input"></span></h1> -->
+                </div>
+
             </div>
+            </div>
+
+
         </section>
 
         <section id="aboutMe" class="aboutMe" role="region" aria-labelledby="aboutMeHeading">
@@ -180,7 +187,7 @@
         <section id="projects" class="projects" role="region" aria-labelledby="projectsHeading">
             <h2 id="projectsHeading">Projects</h2>
             <h3 class="projectdes">
-                A running List of projects that will be continuously updates.
+                A running List of projects that will continuously updates.
             </h3>
             <div class="projects-container">
 
