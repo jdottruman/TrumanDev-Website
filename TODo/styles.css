@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: rgb(221, 221, 221);
+}
+
+.toDoContainer {
+    background-color: rgb(99, 131, 255);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.025rem;
+    margin: 3rem;
+}
+
+.toDoContainer h1 {
+    padding-top: 2rem;
+}
+
+.toDoContainer input {
+    margin: 2rem;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#list li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 1.2rem;
+    background-color: rgb(251, 251, 251);
+    margin-top: 1rem;
+}
+
+#list li:last-of-type {
+    margin-bottom: 2rem;
+}
+
+#list li button {
+    width: 8%;
+    background-color: red;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+}
