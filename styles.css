@@ -884,6 +884,10 @@ display: none;}
 
 @media (max-width: 540px){
 
+      .welcomeText{
+
+        padding: 0;
+    }
     .WelcomeCon{
         flex-direction: column;
 
