@@ -2,11 +2,14 @@ const table = document.getElementById("table");
 const textInput = document.getElementById("textInput");
 const dateInput = document.getElementById("dateInput");
 const amountInput = document.getElementById("amountInput");
+const amountValue =parseFloat(amountInput.value).toFixed(2);
+const total = document.getElementById("runningTotal")
+let runningTotal = 0;
 
 function addExpense(){
 const textValue= textInput.value;
 const dateValue = dateInput.value;
-const amountValue =parseFloat(amountInput.value).toFixed(2);
+const amountValue = parseFloat(amountInput.value).toFixed(2);
 if ( textValue !== "" && dateValue !== "" && amountValue !== "" ){
 
     
@@ -41,6 +44,13 @@ amountInput.value="";
 
 // add event listener to the deleteBtn to link the deleteExpense function
 deleteBtn.addEventListener("click",deleteExpense )
+// end of EL
+
+
+runningTotal += parseFloat(amountValue);
+total.innerHTML=`$ ${runningTotal.toFixed(2)} `;
+
+
 
 
 
@@ -53,6 +63,18 @@ deleteBtn.addEventListener("click",deleteExpense )
 function deleteExpense(){
 
 const expense= event.target.parentElement;
+
+const amount = parseFloat(expense.children[2].innerText.slice(1));
+
 // removing itself from the table element
 table.removeChild(expense)
+runningTotal -= amount;
+total.innerHTML= parseFloat(runningTotal).toFixed(2)
+
+
+if(runningTotal <= 0 ){
+
+total.innerHTML=``;
+}
+
 }
