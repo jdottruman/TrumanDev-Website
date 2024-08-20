@@ -85,10 +85,14 @@ border-bottom:1px solid #7a7a7a ;
     align-items: center;
     padding-top: 3rem;
     font-family: "Titillium Web", sans-serif;
-
-
-   
+    justify-content: center;
+ 
 }
+.nav__menu__link :nth-child(1){
+padding-bottom: 5rem;
+}
+
+
 .nav__menu__link i{
     padding: .4rem;
     display: none;
