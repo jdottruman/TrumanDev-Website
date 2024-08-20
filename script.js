@@ -32,9 +32,6 @@ hamburger.classList.remove("active")
 
 }
 
-
-
-
 function darkMode() {
     const body = document.body;
     const darkModeEnabled = body.classList.toggle("dark-mode");   
@@ -50,12 +47,3 @@ function darkMode() {
     }
 }
 
-// typed scrip
-let typed = new Typed(".input", {
-    strings: ["Stay Connected",  "See More"],
-    typeSpeed: 65,
-    backSpeed: 55,
-    loop: true
-}
-)
-;
