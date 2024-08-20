@@ -739,22 +739,16 @@ width: 100%;
 /* DARK MODE */
 
 body.dark-mode #bolt {
-    color: #000;
+    color: #e4e4e4;
 }
 
-body.dark-mode .welcome{
-    background-image: linear-gradient(to top, #03223c, #08253d, #0e283f, #132b40, #182e41, #1c3142, #203343, #243644, #283946, #2d3b48, #313e4a, #35414c);
 
-}
 
 body.dark-mode  .welcomeText h4{
     color: #000000;
 } 
-body.dark-mode li p{
-    color: #000;
-}
-body.dark-mode .nav__menu__link::before {
-    background-color: #000000;
+body.dark-mode li a{
+    color: #e4e4e4;
 }
 body.dark-mode .welcome i{
     color: #ffffff;
@@ -765,13 +759,20 @@ body.dark-mode  .welcomeText h1{
 }
 
 body.dark-mode .welcome h3{
-    color: #000000;
+    color: #e4e4e4;
 }
 
-body.dark-mode .highlight{
-    color: #fff;
+ body.dark-mode .aboutMe p,body.dark-mode {
+    background-color: #333;
+    color: #f5f5f5;
 }
+
+
+
+
 /* END OF DARK */
+
+
 /* Media Queries for responsiveness */
 @media (max-width: 810px) {
     .nav__hamburger {
