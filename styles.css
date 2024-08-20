@@ -249,7 +249,7 @@ top: 16rem;
 
 /* Social Icons */
 .social {
-
+justify-content: center;
     display: flex;
     padding-top: 1.5rem;
     gap: 5rem;
