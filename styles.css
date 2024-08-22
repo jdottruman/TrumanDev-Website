@@ -517,6 +517,8 @@ padding: 3rem;
 .projectdes{
     text-align: left;
     color: rgb(162, 163, 163);
+padding-left: 3rem;
+padding-bottom: 1rem;
 }
 
 .project:hover {
