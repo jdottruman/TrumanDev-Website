@@ -125,7 +125,24 @@ languages:`<span>Languages: <br></span>
 button:"calCode/calCode.html",
 sourceCode:"https://github.com/jdottruman/TrumanDev-Website/tree/main/calCode"
 
+},
+{
+
+    image:"photos/qrGenrator.png",
+    title:"QR Genrator",
+    description:'A QR code Generator',
+    languages:`<span>Languages: <br></span>
+    <i class="fa-brands fa-html5"></i>
+    <i class="fa-brands fa-css3"></i>
+    <i class="fa-brands fa-js"></i>`,
+    button:"qrGenerator/index.html",
+    // sourceCode:;
+
 }
+
+
+
+
 ]
 
 
@@ -136,12 +153,12 @@ projects.forEach((project)=>{
 projectHtml +=
     `
     <div class="project">
-
+    <h3>${project.title}</h3>
     <div class="projectImgDiv">
         <img src="${project.image}" alt="Calculator App Screenshot">
     </div>
     <div class="projText">
-        <h3>${project.title}</h3>
+    
         <p class="contText">${project.description}</p>
         <p>${project.languages}
         </p>
