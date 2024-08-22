@@ -128,7 +128,7 @@ sourceCode:"https://github.com/jdottruman/TrumanDev-Website/tree/main/calCode"
 },
 {
 
-    image:"photos/qrGenrator.png",
+    image:"photos/qrGenerator.png",
     title:"QR Genrator",
     description:'A QR code Generator',
     languages:`<span>Languages: <br></span>
