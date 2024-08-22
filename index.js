@@ -136,7 +136,8 @@ sourceCode:"https://github.com/jdottruman/TrumanDev-Website/tree/main/calCode"
     <i class="fa-brands fa-css3"></i>
     <i class="fa-brands fa-js"></i>`,
     button:"qrGenerator/index.html",
-    // sourceCode:;
+    sourceCode:"https://github.com/jdottruman/TrumanDev-Website/tree/main/qrGenerator"
+
 
 }
 
