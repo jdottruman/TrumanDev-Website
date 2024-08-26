@@ -150,7 +150,7 @@ padding-bottom: 5rem;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding: 10px 15px;
+    padding: 13.5px 15px;
     background-color: rgba(84, 196, 193,0.85); /* Matches your preferred theme */
     color: white;
     border: none;
@@ -162,6 +162,9 @@ display: none;
 
 #scrollToTop.show {
     display: block;
+}
+#scrollToTop i{
+    font-size: 1.8rem;
 }
 
 /* end of scroll to top */
