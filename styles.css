@@ -145,6 +145,27 @@ padding-bottom: 5rem;
 }
 
 
+/* scroll to top */
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: rgba(84, 196, 193,0.85); /* Matches your preferred theme */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+display: none;
+    z-index: 1000;
+}
+
+#scrollToTop.show {
+    display: block;
+}
+
+/* end of scroll to top */
+
 /* Welcome Section */
 .welcome {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
