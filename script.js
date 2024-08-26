@@ -47,3 +47,22 @@ function darkMode() {
     }
 }
 
+
+
+document.getElementById('scrollToTop').addEventListener('click',()=>{
+    window.scrollTo({
+        top:0,
+        behavior:'smooth'
+    });
+});
+
+
+
+window.addEventListener('scroll',()=>{
+    const scrollToTopBtn= document.getElementById('scrollToTop');
+    if (window.scrollY > 200){
+        scrollToTopBtn.classList.add('show')
+    }else{
+scrollToTopBtn.classList.remove('show')
+    }
+})
