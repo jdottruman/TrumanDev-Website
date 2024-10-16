@@ -854,7 +854,7 @@ align-items: flex-start;
     padding: 2rem;
     width: 100vw;
 
-    height: 80vh;
+    height: 75vh;
   }
 
   .welcomeText h2 {
@@ -870,8 +870,6 @@ align-items: flex-start;
   .welcomeText {
     margin: 0;
     padding: 0;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
   }
   .project {
     padding: 1.5rem;
