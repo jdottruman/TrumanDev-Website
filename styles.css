@@ -189,6 +189,7 @@ body {
   color: #2c2c2c;
 }
 .welcomeText h2 {
+  width: 100vw;
   font-size: 5.5rem;
   margin-bottom: 0.5rem;
   line-height: 1.3;
