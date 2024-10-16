@@ -265,9 +265,7 @@ body {
   color: #fff;
   text-align: center;
 }
- {
-  text-align: center;
-}
+
 .paraCon {
   color: #fff;
   display: flex;
@@ -855,7 +853,7 @@ align-items: flex-start;
   }
 
   .welcomeText h2 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     line-height: 1;
   }
   .welcomeRight {
