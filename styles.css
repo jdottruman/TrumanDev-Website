@@ -479,10 +479,11 @@ body {
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2); /* Enhanced box shadow */
   width: 100%;
-
+  text-align: center;
   max-width: 400px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   transition: transform 0.3s ease-in-out;
   background-color: var(--card-color);
@@ -501,6 +502,10 @@ body {
 
 .projectImgDiv {
   height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 .project img {
@@ -508,7 +513,6 @@ body {
   height: 15rem;
   border-radius: 10px;
   object-fit: cover;
-  margin-right: 1rem;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Enhanced box shadow */
 }
 
@@ -538,21 +542,17 @@ body {
 
 .project a {
   text-decoration: none;
-  color: #ffffff;
-  font-weight: 100;
-  padding: 0.67rem 1rem;
-  background-color: #7a7a7a;
-  border-radius: 0.9rem;
-  display: inline-flex;
-  align-items: center;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: var(--accent-color);
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+  width: 12rem;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .project a:hover {
-  background-color: #4e8b93;
-  color: #f8f0f0;
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.35);
+  background-color: var(--accent-color);
+  color: #fff;
 }
 
 .project a i {
@@ -561,6 +561,11 @@ body {
 
 .projText {
   padding-top: 4.5rem;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .certCon {
