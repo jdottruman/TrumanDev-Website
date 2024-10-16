@@ -849,6 +849,7 @@ align-items: flex-start;
     padding: 1rem;
   }
   .welcome {
+    padding: 2rem;
     width: 100vw;
   }
 
