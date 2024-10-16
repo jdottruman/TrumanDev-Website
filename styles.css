@@ -263,6 +263,10 @@ body {
 .aboutMe .paragraph1,
 .aboutMe .paragraph2 {
   color: #fff;
+  text-align: center;
+}
+ {
+  text-align: center;
 }
 .paraCon {
   color: #fff;
@@ -284,7 +288,7 @@ body {
 }
 
 .paraCon h1 {
-  text-align: left;
+  text-align: center;
   color: rgb(75, 75, 75);
   font-size: 2.4rem;
   font-family: "Titillium Web", sans-serif;
@@ -370,7 +374,7 @@ body {
   margin-bottom: 1.5rem;
   font-size: 3rem;
   color: #5d5d5d;
-  text-align: left;
+  text-align: center;
 }
 .skills .landSide {
   padding: 3rem;
@@ -383,7 +387,7 @@ body {
 }
 
 .certSide h2 {
-  text-align: left;
+  text-align: center;
 }
 .certSide p {
   padding-bottom: 2rem;
@@ -448,10 +452,10 @@ body {
 
 .projects h2 {
   padding: 3rem;
-  margin-bottom: 1.5rem;
+
   font-size: 3rem;
   color: rgb(162, 163, 163);
-  text-align: left;
+  text-align: center;
   font-family: "Titillium Web", sans-serif;
 }
 
@@ -864,6 +868,14 @@ align-items: flex-start;
     padding: 0;
     margin-top: 20rem;
     margin-bottom: 3rem;
+  }
+  .project {
+    padding: 1.5rem;
+
+    max-width: 300px;
+  }
+  .projects-container {
+    padding: 1.5rem;
   }
 }
 
