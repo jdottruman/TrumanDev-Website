@@ -841,7 +841,7 @@ align-items: flex-start;
     padding: 1rem;
   }
   .overlay {
-    padding-top: 23rem;
+    padding-top: 25.5rem;
   }
   .skills .landSide {
     padding: 1rem;
@@ -858,7 +858,7 @@ align-items: flex-start;
   }
 
   .welcomeText h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1;
   }
   .welcomeRight {
