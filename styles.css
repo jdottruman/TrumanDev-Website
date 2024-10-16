@@ -548,6 +548,7 @@ body {
   border-radius: 4px;
   width: 12rem;
   transition: background-color 0.3s, color 0.3s;
+  margin: 0.3rem;
 }
 
 .project a:hover {
