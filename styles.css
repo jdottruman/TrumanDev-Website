@@ -49,6 +49,7 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 35%;
+  border: 1px solid var(--accent-color);
 }
 
 .nav__menu {
