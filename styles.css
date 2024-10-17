@@ -802,29 +802,25 @@ body {
 body.dark-mode #bolt {
   color: #e4e4e4;
 }
-
-body.dark-mode .welcomeText h4 {
-  color: #000000;
+body.dark-mode section {
+  background-color: #fff;
 }
-body.dark-mode li a {
-  color: #e4e4e4;
+body.dark-mode .aboutMe p {
+  color: #000;
 }
-body.dark-mode .welcome i {
-  color: #ffffff;
+body.dark-mode .skills p {
+  color: #000;
 }
-
-body.dark-mode .welcomeText h1 {
-  color: #ffffff;
+body.dark-mode .projects h3,
+body.dark-mode .projects .contText,
+body.dark-mode .projects span,
+body.dark-mode .projects i {
+  color: #000;
 }
-
-body.dark-mode .welcome h3 {
-  color: #e4e4e4;
-}
-
-body.dark-mode .aboutMe p,
-body.dark-mode {
-  background-color: #333;
-  color: #f5f5f5;
+body.dark-mode .contact-form,
+body.dark-mode .contact-form textarea,
+body.dark-mode .contact-form input {
+  background-color: #fff;
 }
 
 /* END OF DARK */
