@@ -152,9 +152,7 @@ body {
 }
 
 /* end of scroll to top */
-body {
-  background-color: #000;
-}
+
 /* Welcome Section */
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
@@ -682,6 +680,10 @@ body {
 
 /* Contact Section */
 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #000;
 }
 .contact-section {
@@ -723,6 +725,76 @@ body {
   background-color: var(--accent-color);
   color: #fff;
 }
+
+/* form
+ */
+
+.contact-form {
+  width: 40rem;
+  margin: 3rem;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #00bcd4; /* Teal accent color */
+}
+
+/* Input groups styling */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.input-group input,
+.input-group textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: #fff;
+  transition: border 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #00bcd4;
+  outline: none;
+}
+
+/* Styling the submit button */
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0097a7;
+}
+/* nd of form */
 /* end contact */
 
 /* DARK MODE */
@@ -731,28 +803,34 @@ body.dark-mode #bolt {
   color: #e4e4e4;
 }
 
-body.dark-mode #bolt {
+body.dark-mode .welcomeText h4 {
+  color: #000000;
+}
+body.dark-mode li a {
   color: #e4e4e4;
 }
-body.dark-mode section {
-  background-color: #fff;
+body.dark-mode .welcome i {
+  color: #ffffff;
 }
-body.dark-mode .aboutMe p {
-  color: #000;
+
+body.dark-mode .welcomeText h1 {
+  color: #ffffff;
 }
-body.dark-mode .skills p {
-  color: #000;
+
+body.dark-mode .welcome h3 {
+  color: #e4e4e4;
 }
-body.dark-mode .projects h3,
-body.dark-mode .projects .contText,
-body.dark-mode .projects span,
-body.dark-mode .projects i {
-  color: #000;
+
+body.dark-mode .aboutMe p,
+body.dark-mode {
+  background-color: #333;
+  color: #f5f5f5;
 }
+
 /* END OF DARK */
 
 /* Media Queries for responsiveness */
-@media screen and (max-width: 950px) {
+@media (max-width: 950px) {
   .nav__hamburger {
     display: flex;
   }
@@ -768,13 +846,6 @@ body.dark-mode .projects i {
     transition: all ease-in-out 0.4s;
   }
 
-  .nav {
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-between;
-    width: 15%;
-  }
-
   .nav__menu ul {
     flex-direction: column;
     width: 100%;
@@ -782,11 +853,12 @@ body.dark-mode .projects i {
     align-items: center;
     justify-content: space-around;
     height: 100%;
-    background-color: #000;
   }
 
   .nav__menu ul li {
     text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
   }
 
   .nav__hamburger {
@@ -804,7 +876,11 @@ body.dark-mode .projects i {
     top: 0;
     right: 0;
     z-index: 1000;
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.932),
+      rgba(0, 0, 0, 0.712)
+    );
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 70vh;
@@ -828,19 +904,7 @@ body.dark-mode .projects i {
     transition: all ease-in-out 0.4s;
     z-index: 10000;
   }
-  /* .WelcomeCon{
-align-items: center;
-justify-content: center;
-z-index: 10000;
-flex-wrap: wrap;
-} */
-  /* .welcomeText{
-align-items: flex-start;
-    justify-content: flex-end;
-    z-index: 10000;
-    padding-right: 1rem;
 
-} */
   .social {
     display: none;
   }
@@ -919,14 +983,9 @@ align-items: flex-start;
     top: 0;
     width: 100%;
   }
-}
-@media (max-width: 540px) {
-  .nav {
-    flex-direction: row;
-    width: 100vw;
-    height: 10vh;
-  }
-  .welcomeRight {
+  .contact-form {
     width: 100%;
+    margin: 0;
+    margin-bottom: 1.3rem;
   }
 }
