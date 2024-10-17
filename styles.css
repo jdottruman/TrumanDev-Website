@@ -170,7 +170,6 @@ body {
 
   background-color: #000000;
   overflow: hidden;
-
   background: url("photos/aric-cheng-cd_0nJaCxuM-unsplash.jpg");
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the background image */
@@ -942,6 +941,7 @@ body.dark-mode .contact-form input {
   .welcome {
     padding: 2rem;
     width: 100vw;
+    border-radius: 15px;
 
     height: 75vh;
   }
