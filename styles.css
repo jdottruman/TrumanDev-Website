@@ -752,7 +752,7 @@ body.dark-mode .projects i {
 /* END OF DARK */
 
 /* Media Queries for responsiveness */
-@media (max-width: 810px) {
+@media screen and (max-width: 950px) {
   .nav__hamburger {
     display: flex;
   }
