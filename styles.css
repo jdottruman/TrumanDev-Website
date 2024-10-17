@@ -831,6 +831,9 @@ body.dark-mode {
 
 /* Media Queries for responsiveness */
 @media (max-width: 950px) {
+  body {
+    background-color: #000;
+  }
   .nav__hamburger {
     display: flex;
   }
