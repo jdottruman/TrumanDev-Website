@@ -152,7 +152,9 @@ body {
 }
 
 /* end of scroll to top */
-
+body {
+  background-color: #000;
+}
 /* Welcome Section */
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
@@ -728,6 +730,10 @@ body {
 body.dark-mode #bolt {
   color: #e4e4e4;
 }
+
+body.dark-mode #bolt {
+  color: #e4e4e4;
+}
 body.dark-mode section {
   background-color: #fff;
 }
@@ -743,7 +749,6 @@ body.dark-mode .projects span,
 body.dark-mode .projects i {
   color: #000;
 }
-
 /* END OF DARK */
 
 /* Media Queries for responsiveness */
