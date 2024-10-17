@@ -47,6 +47,7 @@ body {
 
 .nav__logo {
   height: 50px;
+  margin-top: 1rem;
   width: 50px;
   border-radius: 35%;
   border: 1px solid var(--accent-color);
