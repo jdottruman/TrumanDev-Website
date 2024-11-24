@@ -267,7 +267,8 @@ body {
 .aboutMe .paragraph1,
 .aboutMe .paragraph2 {
   color: #fff;
-  text-align: center;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .paraCon {
@@ -291,7 +292,8 @@ body {
 }
 .aboutMe .evolve {
   color: #fff;
-  text-align: center;
+  text-align: justify;
+  hyphens: auto;
 }
 .paraCon h1 {
   text-align: center;
@@ -386,7 +388,8 @@ body {
   padding: 3rem;
 }
 .skills .landSide p {
-  text-align: center;
+  text-align: justify;
+  hyphens: auto;
   color: #fff;
   font-size: 1.15rem;
   font-weight: 300;
